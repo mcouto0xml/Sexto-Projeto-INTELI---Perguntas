@@ -42,7 +42,7 @@ Qual das seguintes alternativas melhor descreve o que o código faz?
 
 A) O código avalia a expressão booleana, imprime o resultado `false`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
 
-B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
+<s>B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.</s>
 
 C) O código avalia a expressão booleana, imprime o resultado `true` e verifica se o número 5 está presente na lista de números.
 
@@ -106,7 +106,7 @@ Escolha a opção que responde corretamente qual seria a saída após a execuç�
 
 A) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -1050.'
 
-B) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -1050.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -100.'
+<s>B) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -1050.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -100.'</s>
 
 C) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -100.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -1050.'
 
@@ -137,7 +137,7 @@ B) O código verifica se o número é par ou ímpar. Se for par, exibe a mensage
 
 C) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!". Se for ímpar, exibe a mensagem "O número é ímpar e não é divisível por 3!".
 
-D) O código verifica se o número é par, se é divisível por 3 ou se é ímpar. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3 (e não for par), exibe a mensagem "O número é divisível por 3!". Se for ímpar (e não for divisível por 3), exibe a mensagem "O número é ímpar e não é divisível por 3!".
+<s>D) O código verifica se o número é par, se é divisível por 3 ou se é ímpar. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3 (e não for par), exibe a mensagem "O número é divisível por 3!". Se for ímpar (e não for divisível por 3), exibe a mensagem "O número é ímpar e não é divisível por 3!".</s>
 
 
 ______
@@ -201,7 +201,7 @@ Compra 3 aprovada. Saldo restante: 400
 Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
 
 
-D)
+<s>D)
 
 Compra 1 aprovada. Saldo restante: 800
 
@@ -212,7 +212,7 @@ Compra 3 aprovada com limite de crédito. Saldo restante: 200
 Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
 
 Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
-
+</s>
 ______
 
 **5)** Qual é o principal ciclo de vida de um jogo em Phaser.js?
@@ -221,7 +221,7 @@ Escolha a opção que responde corretamente:
 
 A) Setup -> Update -> Draw
 
-B) Preload -> Create -> Update
+<s>B) Preload -> Create -> Update</s>
 
 C) Load -> Initialize -> Render
 
@@ -234,7 +234,7 @@ Escolha a opção que responde corretamente:
 
 A) Renderizar gráficos 3D para jogos em HTML5.
 
-B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.
+<s>B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.</s>
 
 C) Criar efeitos de áudio para melhorar a experiência do usuário em jogos.
 
@@ -246,6 +246,30 @@ ______
 
 **7)** Implemente o pseudocódigo para o algoritmo representado no fluxograma da imagem.
 ![Uma imagem](assets/image.png)
+
+Minha resposta:
+
+```
+inicio
+
+var idade <- LEIA ()
+
+SE idade MENOR QUE 16
+    ESCREVA ("Não pode votar!")
+    fimSE
+
+SE NÃO
+    SE idade MAIOR OU IGUAL QUE 16 E MENOR QUE 18
+        ESCREVA ("Voto facultativo!")
+        fimSE
+    SE NÃO
+        ESCREVA ("Voto obrigatório!")
+        fimSENÃO
+
+fimSENÃO
+fimAlgoritimo
+
+```
 ______
 
 **8)** Considere a implementação da classe base FormaGeometrica em um sistema de modelagem de formas geométricas. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Retangulo e Circulo, que herdam da classe FormaGeometrica, adicionando atributos específicos e métodos para calcular a área de um retângulo e de um círculo, respectivamente.
@@ -262,6 +286,35 @@ Classe FormaGeometrica:
         # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
 
 ```
+Minha resposta:
+
+```
+Classe Retangulo herda FormaGeometrica:
+    Atributos:
+        - altura
+        - largura
+        - areaRetangulo
+
+    Método Constructor(algura, largura, cor):
+        Define o valor dos atributos altura, largura e area com o valor passado como parâmetro.
+        Herda o atributo cor da Classe FormaGeometrica
+
+    Método CalcularAreaRetangulo():
+        areaRetangulo <- altura VEZES largura
+
+Classe Circulo herda FormaGeometrica
+    Atributos:
+        - raio
+        - areaCirculo
+
+    Método Constructor(raio, areaCirculo, cor)
+        Define o valor dos atributos raio e areaCirculo com o valor passado como parâmetro.
+        Herda o atributo cor da Classe FormaGeometrica
+
+    Método CalcularAreaCirculo():
+        areaCirculo <- PI VEZES raio ELEVADO A 2
+    
+```
 
 ______
 
@@ -270,6 +323,30 @@ ______
 Considere a fórumla de atualização velocidade:
 ```
     velocidade = velocidadeInicial + aceleracao*tempo
+```
+
+Minha resposta:
+```
+inicio
+
+var velocidade
+var velocidadeInicial
+var aceleracao
+var tempo
+var tempoMax
+var velocidadeMax
+var distancia
+
+SE tempo > tempoMax faça:
+    tempo = tempoMax
+fimSE
+
+SE velocidade = velocidadeMax faça:
+    aceleração = 0;
+
+
+
+
 ```
 
 ______
@@ -289,7 +366,9 @@ Função SomaDeMatrizes(matrizA, matrizB):
         # Loop para percorrer cada elemento das matrizes e calcular a soma
         Para i de 0 até linhas-1 faça:
             Para j de 0 até colunas-1 faça:
-                matrizResultado[i][j] <- matrizA[i][j] + matrizB[i][j]
+                Para k de 0 até tamanho(matrizA[0])-1 faça:
+                    matrizResultado[i][j] <- matrizA[i][j] + matrizB[i][j]
+                matrizResultado[i][j] <- soma
 
         Retornar matrizResultado
 
@@ -300,4 +379,25 @@ matrizB <- [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
 matrizSoma <- SomaDeMatrizes(matrizA, matrizB)
 Escrever("Soma das matrizes:")
 ImprimirMatriz(matrizSoma)
+```
+
+Minha resposta:
+```
+Função MultiplicaçãoDeMatrizes(matrizA, matrizB):
+    SE tamanho(matrizA[0]) ≠ tamanho(matrizB) então:
+        Retornar "As matrizes não cumprem os requisitos para serem multiplicadas"
+
+    SENÃO
+        linhas <- tamanho(matrizA)
+        colunas <- tamanho(matrizB[0])
+
+        Para i de 0 até linhas-1 faça:
+            Para j de 0 até colunas-1 faça:
+            soma <- 0
+                soma <- soma + matrizA[i][j] * matrizB[i][j]
+
+                matrizResultado[i][j] <- soma
+        Retornar matrizResultado
+        
+        
 ```
