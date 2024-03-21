@@ -337,12 +337,17 @@ var tempoMax
 var velocidadeMax
 var distancia
 
+
+SE velocidade >= velocidadeMax faça:
+    aceleração = 0;
+fimSE
+
+tempo = distancia*velocidade
+
 SE tempo > tempoMax faça:
     tempo = tempoMax
 fimSE
 
-SE velocidade = velocidadeMax faça:
-    aceleração = 0;
 
 
 
