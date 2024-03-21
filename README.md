@@ -262,9 +262,9 @@ SE NÃO
     SE idade MAIOR OU IGUAL QUE 16 E MENOR QUE 18
         ESCREVA ("Voto facultativo!")
         fimSE
-SE NÃO
-    ESCREVA ("Voto obrigatório!")
-    fimSENÃO
+    SE NÃO
+        ESCREVA ("Voto obrigatório!")
+        fimSENÃO
 
 fimSENÃO
 fimAlgoritimo
